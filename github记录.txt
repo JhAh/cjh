@@ -1,0 +1,19 @@
+1.create a new repository on the command line:
+ git init
+ git add README.md
+ git commit -m "first commit"
+ git remote add origin git@github.com:JhAh/cjh.git
+ git push -u origin master
+
+2. push an existing repository from the command line:
+ git remote add origin git@github.com:JhAh/cjh.git
+ git push -u origin master
+ 
+
+ 
+git init //把这个目录变成Git可以管理的仓库
+git add README.md //文件添加到仓库
+git add . //可以跟单一文件/通配符/目录。一个点就把当前目录下所有未添加的文件全部添加。 
+git commit -m "这里是备注" //把文件提交到仓库
+git remote add origin git@github.com:JhAh/cjh.git //关联远程仓库
+git push -u origin master //把本地库的所有内容推送到远程库上
